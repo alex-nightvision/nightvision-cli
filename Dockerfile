@@ -22,4 +22,9 @@ CMD ["bash"]
 
 ## example use
 # docker run -v $(pwd):/mnt -it --env "NIGHTVISION_TOKEN=$(nightvision token create)" cohenaj194/nightvision-cli 
+
+## JAVA SPRING
+# nightvision swagger extract ./ -t javaspringvulny-api --lang spring
+
+## DOTNET
 # nightvision swagger extract ./ -t universalis --lang dotnet
