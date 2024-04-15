@@ -30,4 +30,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: alex-nightvision/nightvision-cli
+          tags: alexnightvision/nightvision-cli
