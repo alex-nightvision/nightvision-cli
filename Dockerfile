@@ -21,7 +21,7 @@ WORKDIR /mnt
 CMD ["bash"]
 
 ## example use
-# docker run -v $(pwd):/mnt -it --env "NIGHTVISION_TOKEN=$(nightvision token create)" cohenaj194/nightvision-cli 
+# docker run -v $(pwd):/mnt -it --env "NIGHTVISION_TOKEN=$(nightvision token create)" --network="host" alexnightvision/nightvision-cli 
 
 ## JAVA SPRING
 # nightvision swagger extract ./ -t javaspringvulny-api --lang spring
